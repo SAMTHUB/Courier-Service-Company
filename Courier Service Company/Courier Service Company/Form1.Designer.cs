@@ -52,7 +52,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(308, 105);
+            this.label2.Location = new System.Drawing.Point(308, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 37);
             this.label2.TabIndex = 1;
@@ -69,6 +69,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -80,6 +81,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "SIGNUP";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Form1
             // 

@@ -31,5 +31,16 @@ namespace Courier_Service_Company
         {
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Info Check = new Info();
+            Check.Show();
+        }
     }
 }

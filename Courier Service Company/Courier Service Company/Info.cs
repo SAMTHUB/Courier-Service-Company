@@ -21,5 +21,28 @@ namespace Courier_Service_Company
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            String txtname, txtuserName, txtpassword;
+            txtname = "Usama123";
+            txtuserName = "usama_123";
+            txtpassword = "090078601";
+            if (textname.Text == txtname && textUserName.Text == txtuserName && textPassword.Text == txtpassword)
+            {
+                Data dt = new Data();
+                dt.Show();
+            }
+            else
+            {
+                MessageBox.Show("INVALID USERNAME OR PASSWORD");
+            }
+                
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
