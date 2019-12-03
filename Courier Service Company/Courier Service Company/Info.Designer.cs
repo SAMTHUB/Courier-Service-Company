@@ -34,7 +34,7 @@
             this.textname = new System.Windows.Forms.TextBox();
             this.textPassword = new System.Windows.Forms.TextBox();
             this.textUserName = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtname
@@ -81,6 +81,7 @@
             this.textname.Name = "textname";
             this.textname.Size = new System.Drawing.Size(100, 20);
             this.textname.TabIndex = 3;
+            this.textname.TextChanged += new System.EventHandler(this.Textname_TextChanged);
             // 
             // textPassword
             // 
@@ -96,18 +97,18 @@
             this.textUserName.Size = new System.Drawing.Size(100, 20);
             this.textUserName.TabIndex = 5;
             // 
-            // button1
+            // submit
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(245, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 44);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Done";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submit.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.submit.Location = new System.Drawing.Point(218, 304);
+            this.submit.Name = "submit";
+            this.submit.Size = new System.Drawing.Size(110, 44);
+            this.submit.TabIndex = 6;
+            this.submit.Text = "Submit";
+            this.submit.UseVisualStyleBackColor = false;
+            this.submit.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Info
             // 
@@ -115,7 +116,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.submit);
             this.Controls.Add(this.textUserName);
             this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textname);
@@ -125,6 +126,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Name = "Info";
             this.Text = "Info";
+            this.Load += new System.EventHandler(this.Info_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +140,6 @@
         private System.Windows.Forms.TextBox textname;
         private System.Windows.Forms.TextBox textPassword;
         private System.Windows.Forms.TextBox textUserName;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button submit;
     }
 }

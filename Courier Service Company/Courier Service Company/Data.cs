@@ -60,11 +60,16 @@ namespace Courier_Service_Company
             if(count<size)
             {
                 cities[count] = textnameofcities.Text;
+                textnameofcities.Text = "";
+                count++;
             }
-            else
+            if(count>=size)
             {
                 MessageBox.Show("Data Entered");
                 textnameofcities.Enabled = false;
+                Distance dt = new Distance();
+                dt.Show();
+
             }
            
             
