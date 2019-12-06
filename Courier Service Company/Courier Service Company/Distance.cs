@@ -16,10 +16,5 @@ namespace Courier_Service_Company
         {
             InitializeComponent();
         }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
