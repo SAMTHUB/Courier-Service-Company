@@ -48,6 +48,7 @@
             this.label2.Size = new System.Drawing.Size(179, 50);
             this.label2.TabIndex = 3;
             this.label2.Text = "Distance of City\r\n        A to B";
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // textBox1
             // 
