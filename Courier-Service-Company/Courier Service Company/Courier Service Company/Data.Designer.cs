@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textcities = new System.Windows.Forms.TextBox();
-            this.textnameofcities = new System.Windows.Forms.TextBox();
-            this.btnNameofCities = new System.Windows.Forms.Button();
+            this.txt_cities = new System.Windows.Forms.TextBox();
+            this.txt_CityName = new System.Windows.Forms.TextBox();
+            this.btn_OKcityName = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnNoofCities = new System.Windows.Forms.Button();
+            this.btn_OKcities = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -61,34 +64,35 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Name of Cities";
             // 
-            // textcities
+            // txt_cities
             // 
-            this.textcities.Location = new System.Drawing.Point(339, 149);
-            this.textcities.Name = "textcities";
-            this.textcities.Size = new System.Drawing.Size(139, 20);
-            this.textcities.TabIndex = 4;
-            this.textcities.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.txt_cities.Location = new System.Drawing.Point(339, 149);
+            this.txt_cities.Name = "txt_cities";
+            this.txt_cities.Size = new System.Drawing.Size(139, 20);
+            this.txt_cities.TabIndex = 4;
+            this.txt_cities.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.txt_cities.Validating += new System.ComponentModel.CancelEventHandler(this.txt_cities_validating);
             // 
-            // textnameofcities
+            // txt_CityName
             // 
-            this.textnameofcities.Location = new System.Drawing.Point(339, 249);
-            this.textnameofcities.Name = "textnameofcities";
-            this.textnameofcities.Size = new System.Drawing.Size(139, 20);
-            this.textnameofcities.TabIndex = 5;
-            this.textnameofcities.TextChanged += new System.EventHandler(this.Textnameofcities_TextChanged);
+            this.txt_CityName.Location = new System.Drawing.Point(339, 249);
+            this.txt_CityName.Name = "txt_CityName";
+            this.txt_CityName.Size = new System.Drawing.Size(139, 20);
+            this.txt_CityName.TabIndex = 5;
+            this.txt_CityName.TextChanged += new System.EventHandler(this.Textnameofcities_TextChanged);
             // 
-            // btnNameofCities
+            // btn_OKcityName
             // 
-            this.btnNameofCities.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnNameofCities.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNameofCities.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnNameofCities.Location = new System.Drawing.Point(544, 231);
-            this.btnNameofCities.Name = "btnNameofCities";
-            this.btnNameofCities.Size = new System.Drawing.Size(80, 38);
-            this.btnNameofCities.TabIndex = 7;
-            this.btnNameofCities.Text = "OK";
-            this.btnNameofCities.UseVisualStyleBackColor = false;
-            this.btnNameofCities.Click += new System.EventHandler(this.Button1_Click);
+            this.btn_OKcityName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btn_OKcityName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_OKcityName.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_OKcityName.Location = new System.Drawing.Point(544, 231);
+            this.btn_OKcityName.Name = "btn_OKcityName";
+            this.btn_OKcityName.Size = new System.Drawing.Size(80, 38);
+            this.btn_OKcityName.TabIndex = 7;
+            this.btn_OKcityName.Text = "OK";
+            this.btn_OKcityName.UseVisualStyleBackColor = false;
+            this.btn_OKcityName.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label3
             // 
@@ -102,18 +106,22 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Cities Data";
             // 
-            // btnNoofCities
+            // btn_OKcities
             // 
-            this.btnNoofCities.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnNoofCities.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNoofCities.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnNoofCities.Location = new System.Drawing.Point(544, 131);
-            this.btnNoofCities.Name = "btnNoofCities";
-            this.btnNoofCities.Size = new System.Drawing.Size(80, 38);
-            this.btnNoofCities.TabIndex = 9;
-            this.btnNoofCities.Text = "OK";
-            this.btnNoofCities.UseVisualStyleBackColor = false;
-            this.btnNoofCities.Click += new System.EventHandler(this.Button2_Click);
+            this.btn_OKcities.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btn_OKcities.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_OKcities.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_OKcities.Location = new System.Drawing.Point(544, 131);
+            this.btn_OKcities.Name = "btn_OKcities";
+            this.btn_OKcities.Size = new System.Drawing.Size(80, 38);
+            this.btn_OKcities.TabIndex = 9;
+            this.btn_OKcities.Text = "OK";
+            this.btn_OKcities.UseVisualStyleBackColor = false;
+            this.btn_OKcities.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // Data
             // 
@@ -121,16 +129,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnNoofCities);
+            this.Controls.Add(this.btn_OKcities);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnNameofCities);
-            this.Controls.Add(this.textnameofcities);
-            this.Controls.Add(this.textcities);
+            this.Controls.Add(this.btn_OKcityName);
+            this.Controls.Add(this.txt_CityName);
+            this.Controls.Add(this.txt_cities);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Name = "Data";
             this.Text = "Data";
             this.Load += new System.EventHandler(this.Data_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,10 +149,11 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textcities;
-        private System.Windows.Forms.TextBox textnameofcities;
-        private System.Windows.Forms.Button btnNameofCities;
+        private System.Windows.Forms.TextBox txt_cities;
+        private System.Windows.Forms.TextBox txt_CityName;
+        private System.Windows.Forms.Button btn_OKcityName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnNoofCities;
+        private System.Windows.Forms.Button btn_OKcities;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

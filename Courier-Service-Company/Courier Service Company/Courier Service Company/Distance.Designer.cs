@@ -109,11 +109,14 @@
             // citieslabel
             // 
             this.citieslabel.AutoSize = true;
-            this.citieslabel.Location = new System.Drawing.Point(14, 111);
+            this.citieslabel.BackColor = System.Drawing.SystemColors.Highlight;
+            this.citieslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.citieslabel.Location = new System.Drawing.Point(12, 100);
             this.citieslabel.Name = "citieslabel";
-            this.citieslabel.Size = new System.Drawing.Size(53, 13);
+            this.citieslabel.Size = new System.Drawing.Size(116, 18);
             this.citieslabel.TabIndex = 11;
-            this.citieslabel.Text = "citieslabel";
+            this.citieslabel.Text = "Enter the Data";
+            this.citieslabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textstartcity
             // 
@@ -121,6 +124,7 @@
             this.textstartcity.Name = "textstartcity";
             this.textstartcity.Size = new System.Drawing.Size(139, 20);
             this.textstartcity.TabIndex = 12;
+            this.textstartcity.TextChanged += new System.EventHandler(this.Textstartcity_TextChanged);
             // 
             // label2
             // 
@@ -130,9 +134,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(12, 230);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(265, 25);
+            this.label2.Size = new System.Drawing.Size(147, 25);
             this.label2.TabIndex = 14;
-            this.label2.Text = "STARTING PATH FROM";
+            this.label2.Text = "Optimal Path\r\n";
             // 
             // btnNext
             // 

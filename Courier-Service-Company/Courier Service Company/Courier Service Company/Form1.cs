@@ -19,6 +19,7 @@ namespace Courier_Service_Company
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
         }
 

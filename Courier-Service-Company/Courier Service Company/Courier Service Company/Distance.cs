@@ -13,11 +13,6 @@ namespace Courier_Service_Company
 
     public partial class Distance : Form
     {
-        public Distance()
-        {
-            InitializeComponent();
-        }
-
         string show = "";
         int size = 0;
         List<nameofCities> costs = new List<nameofCities>();
@@ -26,6 +21,12 @@ namespace Courier_Service_Company
         int j = 1;
         static int[] vertex = { 0 };
         static int[] path = { 0 };
+        public Distance()
+        {
+            InitializeComponent();
+        }
+
+        
         public Distance(int s)
         {
             size = s;
@@ -125,11 +126,11 @@ namespace Courier_Service_Company
             int nextGreater = vertex.Length - 1;
 
             // Find the rightmost successor to the pivot 
-            for (int i = vertex.Length - 1; i > last; i--)
+            for (int ii = vertex.Length - 1; ii > last; ii--)
             {
-                if (vertex[i] > vertex[last])
+                if (vertex[ii] > vertex[last])
                 {
-                    nextGreater = i;
+                    nextGreater = ii;
                     break;
                 }
             }
@@ -170,11 +171,11 @@ namespace Courier_Service_Company
                 // find current path cost 
                 int k = s;
                 path[0] = s + 1;
-                for (int i = 0; i < vertex.Length; i++)
+                for (int ii = 0; ii < vertex.Length; ii++)
                 {
-                    current_pathweight += costs[k].Arr[vertex[i]];
-                    path[i + 1] = vertex[i] + 1;
-                    k = vertex[i];
+                    current_pathweight += costs[k].Arr[vertex[ii]];
+                    path[ii + 1] = vertex[ii] + 1;
+                    k = vertex[ii];
                 }
                 current_pathweight += costs[k].Arr[s];
 
@@ -184,9 +185,9 @@ namespace Courier_Service_Company
                 //modify minimum path
                 if (min_path != chk)
                 {
-                    for (int j = 0; j < size; j++)
+                    for (int jj = 0; jj < size; jj++)
                     {
-                        low_path[j] = path[j];
+                        low_path[jj] = path[jj];
                     }
                 }
 
@@ -195,9 +196,9 @@ namespace Courier_Service_Company
 
 
 
-            for (int i = 0; i < size; i++)
+            for (int ii = 0; ii< size; ii++)
             {
-                show += Convert.ToString(low_path[i]) + "->";
+                show += Convert.ToString(low_path[ii]) + "->";
             }
 
             show += low_path[size];
@@ -243,6 +244,11 @@ namespace Courier_Service_Company
             s = Convert.ToInt32(textstartcity.Text) - 1;
 
             TSP();
+        }
+
+        private void Textstartcity_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
