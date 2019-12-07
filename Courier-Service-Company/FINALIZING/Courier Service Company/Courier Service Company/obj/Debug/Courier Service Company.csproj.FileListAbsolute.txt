@@ -1,0 +1,63 @@
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe.config
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.pdb
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csprojAssemblyReference.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Data.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.DataEntry.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Distance.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Form1.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Info.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Parcel_Delivery.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Properties.Resources.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Result.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.GenerateResource.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.CoreCompileInputs.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.exe
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.pdb
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe.config
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.pdb
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Data.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.DataEntry.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Distance.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Form1.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Info.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Parcel_Delivery.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Properties.Resources.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Result.resources
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.GenerateResource.cache
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.exe
+C:\Users\DELL\Downloads\Courier-Service-Company-master\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.pdb
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe.config
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.pdb
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csprojAssemblyReference.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Data.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.DataEntry.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Distance.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Form1.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Info.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Parcel_Delivery.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Properties.Resources.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Result.resources
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.GenerateResource.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.CoreCompileInputs.cache
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.exe
+E:\SEMESTERS Work\New folder\Courier-Service-Company\Courier-Service-Company\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.pdb
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe.config
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.exe
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\bin\Debug\Courier Service Company.pdb
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Data.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.DataEntry.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Distance.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Form1.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Info.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Parcel_Delivery.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Properties.Resources.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier_Service_Company.Result.resources
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.exe
+C:\Users\Hp\Desktop\Finalizing\Courier Service Company\Courier Service Company\obj\Debug\Courier Service Company.pdb
