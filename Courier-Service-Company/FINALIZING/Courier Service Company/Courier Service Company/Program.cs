@@ -16,7 +16,7 @@ namespace Courier_Service_Company
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Data());
+            Application.Run(new Form1());
         }
     }
 }
